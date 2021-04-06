@@ -63,7 +63,6 @@ function init(){
 				start: "top bottom",
 				end: "bottom bottom",
 				scrub: 2,
-				markers: true,
 			}
 		})
 	});
