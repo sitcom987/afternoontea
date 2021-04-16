@@ -82,6 +82,22 @@ function init(){
 			}
 		})
 	});
+	
+	const h4 = gsap.utils.toArray("h4");
+	h4.forEach(h4 => {
+		gsap.from(h4, {
+			opacity: 0,
+			duration: 2,
+			yPercent: 30,
+			scrub: 1.5,
+			scrollTrigger: {
+				trigger: h4,
+				start: "top bottom-=10%",
+				end: "top center",
+				toggleActions: "play none none reverse",
+			}
+		})
+	});
 			
 	const foodname = gsap.utils.toArray(".foodname");
 	foodname.forEach(foodname => {
