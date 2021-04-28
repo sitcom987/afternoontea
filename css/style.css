@@ -116,9 +116,17 @@ h4 {
 }
 
 .bigimage {
-	width: 500px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	float: right;
 	display: block;
+}
+
+.meridianlogo {
+	width: 150px;
+	display: inline;
 }
 
 #food, #tea, #champ, #story, #section {
@@ -164,6 +172,11 @@ iframe {
 	text-align: center;
 	font-size: 1.3em;
 	font-family: 'Della Respira', "Baskerville", "Times New Roman", "serif";
+}
+
+.fineprint {
+	font-size: 0.65em;
+	font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
 }
 
 @media (max-width: 768px) {
