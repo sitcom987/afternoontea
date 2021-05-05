@@ -3,9 +3,9 @@
 
 body {
 	font-size: 16px;
-	color: #000000;
+	color: #444440;
 	font-family: 'Lato', sans-serif;
-	background-color: #fff1e6;
+	background-color: #ffffff;
 	margin: 0px;
 	width: 100%;
 }
@@ -22,7 +22,7 @@ body {
 	min-height: 100vh;
 }
 
-#nav a, #story a {
+#nav a, #prices a {
 	color: #CB997E;
 }
 
@@ -94,6 +94,7 @@ h4 {
 	text-align: center;
 	margin: 10px 10px 10px 10px;
 	opacity: 0.7;
+	color: #6B7853;
 }
 
 .fooddesc {
@@ -121,15 +122,17 @@ h4 {
 	margin-right: auto;
 	display: block;
 	float: right;
-	display: block;
+	
 }
 
 .meridianlogo {
 	width: 150px;
-	display: inline;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#food, #tea, #champ, #story, #section {
+#food, #tea, #champ, #story, #section, #prices {
 	margin: 0 auto;
 	padding: 40px 0px 20px 0px;
 	position: relative;
@@ -145,6 +148,16 @@ h4 {
 
 .flower {
 	position: absolute;
+}
+
+#leftblossom {
+	position: absolute;
+	left: 0;
+	right: auto;
+	top: 2500px;
+	z-index: -1;
+	width: 200px;
+	text-align: left;
 }
 
 #book {
@@ -177,6 +190,11 @@ iframe {
 .fineprint {
 	font-size: 0.65em;
 	font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+	text-align: center;
+}
+
+#prices .fooddesc a {
+	color: #000000;
 }
 
 @media (max-width: 768px) {
@@ -187,6 +205,10 @@ iframe {
 	
 	.fooddesc {
 		margin: 10px 20px 40px 20px;
+	}
+	
+	#leftblossom {
+		width: 50px;
 	}
 	
 }
