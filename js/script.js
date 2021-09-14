@@ -1,7 +1,7 @@
 // JavaScript Document
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from("li", {duration: 3, opacity: 0, ease: "power2", stagger: 0.2, });
+gsap.from("h1", {duration: 3, opacity: 0, ease: "power2", stagger: 0.2, });
 
 function init(){
 	
